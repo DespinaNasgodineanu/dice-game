@@ -10,6 +10,8 @@ const current1score = document.querySelector('#current--1');
 const score0player= document.querySelector('#score--0');
 const score1player= document.querySelector('#score--1');
 
+//TEST
+
 let scores = [0,0];
 let score = 0;
 let currentScore = 0;
