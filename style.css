@@ -169,3 +169,47 @@ main {
 .hidden {
   display: none;
 }
+
+@media  screen and (max-width:650px) {
+  main{
+    top: 10%;
+    margin: 5rem;
+    flex-direction: column;
+    height: 100rem;
+  }
+  .name{
+    font-size: 2.5rem;
+    text-wrap: nowrap;
+  }
+  .score{
+    font-size: 4rem;
+    margin-bottom: 10rem;
+  }
+  .current{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+@media  screen and (max-width:450px) {
+  main{
+    top: 20rem;
+    margin: 0;
+    height: 100rem;
+  }
+  .btn{
+    padding: 0.1rem 1.2rem;
+  }
+  .btn--roll{
+    top: 45%;
+  }
+  .btn--hold{
+    top: 53%;
+  }
+ 
+  .current p{
+    font-size: 1.2rem;
+    left: 10%;
+    top: 40%;
+  }
+}
